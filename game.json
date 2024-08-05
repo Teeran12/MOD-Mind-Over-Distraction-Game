@@ -1,0 +1,3912 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "eb0815a1-f66a-43ad-ae6f-904b07bc7fce",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "MOD: Mind Over Distraction",
+    "description": "The game aims to enhance cognitive abilities and overall functioning through affordable and efficient digital assistance. The project design focuses on creating four modules: Memory, Attention, Focus, and Emotional Regulation, each targeting specific cognitive domains.\n",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": "",
+      "liluo-thumbnail": "thumb.jpg"
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "backgroundMDW.jpeg",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": false,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [
+      "KLEyqE0egXX8naGaG3804rkwuOI2"
+    ],
+    "authorUsernames": [
+      "Kuhneateran"
+    ],
+    "categories": [
+      "educational",
+      "mini-games",
+      "puzzle"
+    ],
+    "playableDevices": [
+      "keyboard",
+      "gamepad",
+      "mobile"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Buy.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Buy.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/5ec1c0d15a261217283ece37c38f0ca24ca1b661e098aa141e190ec2e77740d1_Buy.png",
+          "name": "Buy.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Download.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Download.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/5b2ee5b1fafed5c2f63450c0275477135de717fbf3f34ebb21705267cf5c9b00_Download.png",
+          "name": "Download.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Config.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Config.png\",\"extension\":\".png\"}",
+        "name": "Config.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/49c02b78cfcb8e5a9c14acc334011b64a703d86f268342a41d0b5cc0422b3fca_Config.png",
+          "name": "Config.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ads.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ads.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/6e866baa20a4d85dca6e99c42790603520ea4c68a637cf43dcaa0ab757fcd434_Ads.png",
+          "name": "Ads.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Apply.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Apply.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/b532019bfd40b917896666eeddd65a565dae010341e8459b699c68fe7161a74b_Apply.png",
+          "name": "Apply.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Back.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/de6cc82c7103d6eb20a89c47f994535d02d3db6fe6717677231047af76407882_Back.png",
+          "name": "Back.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Large Buy Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Large Buy Button.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/2764c9437fd4708432f1c552bfd6b449ab04199bb92529008a251191b31a086b_Large Buy Button.png",
+          "name": "Large Buy Button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Heart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Heart.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/1ace97bdca6a1bc21048bf85eeee0f0a2627425064a35dfbc558a5c0aab718b2_Heart.png",
+          "name": "Heart.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Left arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Left arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/18324e1b75ef7a340433b25a131f8597d3005d74a158a7d90a96d52bc1011241_Left arrow.png",
+          "name": "Left arrow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Help.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Help.png\",\"extension\":\".png\"}",
+        "name": "Help.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/7391cdecb14244e441921d628a17eaddfa6f2717bb209ca5238af8f4315bec0b_Help.png",
+          "name": "Help.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Large Exit Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Large Exit Button.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/ee09bfd4171613d3e2e06b74cbd5ca525fec2a31dc4577e72399b376344626e1_Large Exit Button.png",
+          "name": "Large Exit Button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Large Play Button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Large Play Button.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/1b44e72d142f82a90893fb8162e9a172d574a92512ce5fadec5a8778cbae1d99_Large Play Button.png",
+          "name": "Large Play Button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Play.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Play.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/8d8c2e164a0b7182cb017d9f8e1f930a504b1f39276103b92e3b3c655b7a6175_Play.png",
+          "name": "Play.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Plus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Plus.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/10a7b0588a4e76b0c3782ff53beb349c3d351a5eb94ec36eaf8ed0fcd064632b_Plus.png",
+          "name": "Plus.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Retry.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Retry.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/cc0cb4e9134b2f362d8145f10a42d356d3f10bb6e432187d81c25f164099812c_Retry.png",
+          "name": "Retry.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Star.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/30f87923cd1e890aa8c109827fd14abba5891d5defc78836269b605a37ddcfd5_Star.png",
+          "name": "Star.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Menu.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Menu.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/b609e60e111684ed212df3371066cb64fcab0176586ef93153e4b58241cbd96e_Menu.png",
+          "name": "Menu.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Pause.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pause.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/3665e9e3cbbae21705cb283d230ed1ac7f5ee0e178a0c5371fb98e51448c9fc0_Pause.png",
+          "name": "Pause.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Next.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Next.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/422c901b9a2764004c7af15c9c6ed3829ca984ec024c482230e757bec2d488d8_Next.png",
+          "name": "Next.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/World.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "World.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/a9c415aee33569629c9fe6a852110af59fc3300896bac1f9635f57b67b9a20af_World.png",
+          "name": "World.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right arrow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right arrow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/cf447ec45269c88d614a7e3964832435eaa938b7923ea542752f5b0b8bffdc28_Right arrow.png",
+          "name": "Right arrow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Share.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Share.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/Casual Buttons Pack/b8491ec2379b9663cc6231696393080c7b806cb406e753b0cf4099a4f48a55f0_Share.png",
+          "name": "Share.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button With Shadow_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/37288d30c2e013a34e415fb35fffd2f7267ebd031c4380927485d7461708f810_Blue Button With Shadow_Hovered.png",
+          "name": "Blue Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button With Shadow_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/22930cdc6b25260eef3817f1687842974261b68c84ec2a13d7f32b1a2985240f_Blue Button With Shadow_Idle.png",
+          "name": "Blue Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button With Shadow_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/26efbc7581c47b884f5335aa7581999a75b3062aa24062a1a91955e334826d21_Blue Button With Shadow_Pressed.png",
+          "name": "Blue Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CantoraOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CantoraOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/05b0c1364a92b436b86ca819e66b63480d1bc2fb399f6c0cf8bffbf8199ccc2a_CantoraOne-Regular.ttf",
+          "name": "CantoraOne-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Brown Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Brown Button With Shadow_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6744d1d1623a1dd0307667df92a05ab7d33bd968fd4013f06c469331d120df2e_Brown Button With Shadow_Hovered.png",
+          "name": "Brown Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Brown Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Brown Button With Shadow_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/cd4e44711fcc178a4cacfc4c53455e174fdcc9c21a3b08adc3fe4526dfbc3423_Brown Button With Shadow_Idle.png",
+          "name": "Brown Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Brown Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Brown Button With Shadow_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/47067128526b3c56071d01ec19f87649cd4b00f47432cb229e2c3cea96489b6b_Brown Button With Shadow_Pressed.png",
+          "name": "Brown Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floating Out Button Dark Blue_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floating Out Button Dark Blue_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/2f8919c3cad70134ff1732dbaef5dd9babd0aed0240dd817c1db9e27aa6b205b_Floating Out Button Dark Blue_Hovered.png",
+          "name": "Floating Out Button Dark Blue_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floating Out Button Dark Blue_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floating Out Button Dark Blue_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d2cedf36d5812262daf2389108558a2ee0b40ca23da05f6200e1f0eee905ca11_Floating Out Button Dark Blue_Idle.png",
+          "name": "Floating Out Button Dark Blue_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floating Out Button Dark Blue_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floating Out Button Dark Blue_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d246e92fe474d2825e38af207a9926794d490bc052aef447688612f61ec48861_Floating Out Button Dark Blue_Pressed.png",
+          "name": "Floating Out Button Dark Blue_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CarterOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CarterOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/44aceaa249d2ecb8bfe3eb7bedcb17aac44c0f5f13f9f58d85427a5afa7e92f0_CarterOne-Regular.ttf",
+          "name": "CarterOne-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black Decorated Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Decorated Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/8a9f8afaf0442f49cd7d5318d31ac6117137ec91d9086e9bdd59b052a4fa71f0_Black Decorated Button_Hovered.png",
+          "name": "Black Decorated Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black Decorated Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Decorated Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6652cc81d33cb5485e0bf19ed2a92aac70b5c9fb45837762d094c8dbecc30d4d_Black Decorated Button_Idle.png",
+          "name": "Black Decorated Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black Decorated Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Decorated Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/61997299d1d329fff69772b1111ba7c07b6c0a96a9a17090d2bf2cc31ff08e00_Black Decorated Button_Pressed.png",
+          "name": "Black Decorated Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/ArchitectsDaughter.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "ArchitectsDaughter.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+          "name": "ArchitectsDaughter.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/1ffd07cb739df2a909155dd3057f6def46b833ced6ef1a09527b6ea59e88e464_Blue Button_Hovered.png",
+          "name": "Blue Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/eeac55458b66fb84f756b38085fbf7d1e079c39363c942abd35ea9d0939465ce_Blue Button_Idle.png",
+          "name": "Blue Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blue Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f0ede8843d544f6e84bc09299a8aabffbce558966f25af98f7b47ab1648217ce_Blue Button_Pressed.png",
+          "name": "Blue Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black Square Decorated Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Square Decorated Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f412f1600c8331cf72f89d4bd00ce33a91d18553dea6d91ae71966a24c659e9a_Black Square Decorated Button_Hovered.png",
+          "name": "Black Square Decorated Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black Square Decorated Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Square Decorated Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/a33bd108a01f89ef1fe8d695b6b060e19ec466e4fce2d728ed93fb2b96ebd768_Black Square Decorated Button_Idle.png",
+          "name": "Black Square Decorated Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Black Square Decorated Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Square Decorated Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c772df82fc56543546eea5576b02f73253eaf5683120a331581f0b85664f62af_Black Square Decorated Button_Pressed.png",
+          "name": "Black Square Decorated Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/mononoki-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "mononoki-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7423149de6e486ac885567761bef3236bcdb8414d05cb0920ae7aedffdec85f9_mononoki-Regular.ttf",
+          "name": "mononoki-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button With Shadow_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3cfcef451f366e0586d68ae863db979bdeb2ec9453290b236ba3a1fbf19db418_Green Button With Shadow_Hovered.png",
+          "name": "Green Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button With Shadow_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/63f468aa943eb440db683045192c88a94de99bd6e3aa5fc0afc3d93dd8d39324_Green Button With Shadow_Idle.png",
+          "name": "Green Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button With Shadow_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3c957fd6edd0a38bee1807034ca83d582216e6e2f48058e413979f8b1f504e8b_Green Button With Shadow_Pressed.png",
+          "name": "Green Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button With Stone Frame_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button With Stone Frame_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/a835b9f7fa283fad672fb8607fae99c67b44cb853e81b878926ed7804816be23_Green Button With Stone Frame_Hovered.png",
+          "name": "Green Button With Stone Frame_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button With Stone Frame_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button With Stone Frame_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d13ac936a5ce1b628ec20f6031582f6fce805d090e77e5e05d27344bac08ba98_Green Button With Stone Frame_Idle.png",
+          "name": "Green Button With Stone Frame_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button With Stone Frame_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button With Stone Frame_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/8921367f00ac169c0565935cbcaed36d5f383f7d3c4e819fbd7384a89dae1d43_Green Button With Stone Frame_Pressed.png",
+          "name": "Green Button With Stone Frame_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Roboto-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Roboto-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e96b43b0ca3fd7775d75a702f44cd1b0dfd325e1db317f7cba84efdf572571fe_Roboto-Regular.ttf",
+          "name": "Roboto-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button With Shadow_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/eb4edad2c3c752116fd28898f6bf0ae8dd0ab73b5cca111dbbd1e541c92dc393_Grey Button With Shadow_Hovered.png",
+          "name": "Grey Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button With Shadow_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7a8f60c5db6936e591235ae6ef3eca1c856c61adcc8d2a059e4e408804ebc477_Grey Button With Shadow_Idle.png",
+          "name": "Grey Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button With Shadow_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/907400b52ad729d17d819ce65fcedcc7819a07bbf18d106029ef4e7fbfb14d42_Grey Button With Shadow_Pressed.png",
+          "name": "Grey Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Beige_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Beige_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6fad8e544ef611861ec9222dd95874cd2b011f1a98a4593372a25801f3236c1c_Medieval Button Beige_Hovered.png",
+          "name": "Medieval Button Beige_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Beige_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Beige_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7366f06f5fb6f903e0745608c31da98b3d781c9f29af9016636619b32685ec97_Medieval Button Beige_Idle.png",
+          "name": "Medieval Button Beige_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Beige_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Beige_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/8ca64832a117b91bf3128f96ab66c83c7126c3ffb82909ac01ab1d687137997a_Medieval Button Beige_Pressed.png",
+          "name": "Medieval Button Beige_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CaesarDressing-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CaesarDressing-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f66c77b4a9335111fb8db2dc84354aeb1fc92eb0db7c7302e849c4d421eec02c_CaesarDressing-Regular.ttf",
+          "name": "CaesarDressing-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b43e0035dca80ea2fad5c5d65de926dae0185038e5f9cb21d5f20234f30d1c76_Grey Button_Hovered.png",
+          "name": "Grey Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/da7fc2efa0882eb5dfa0266315f2483c2f68d86a6751dc309ea9e9d0dd4759ba_Grey Button_Idle.png",
+          "name": "Grey Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grey Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Grey Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/49c35e14af0e1f7aae407455cb944de96328955870e5f1500f63723ad879a42e_Grey Button_Pressed.png",
+          "name": "Grey Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/bff6adc488c7379b21ceba34e9104e861791b2fbb54b4aae167fe90115b92fa3_Green Button_Hovered.png",
+          "name": "Green Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f46d20e99495562ee66ee2f26defdb0788588184bd30b1f7b951ae728ce63d2a_Green Button_Idle.png",
+          "name": "Green Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ecb33703984d3107196efce7335025d7ec104351fe8cdeb581c73fe0b8038c34_Green Button_Pressed.png",
+          "name": "Green Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f050eea8c9631c6b163779937225dd43bb432edf6b66dbaf64413e005ce5fbed_Medieval Button Brown_Hovered.png",
+          "name": "Medieval Button Brown_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/236403e4a45a3c7435d21f15ebcf3ab54b83e7389964d6999b0f82a3a957056a_Medieval Button Brown_Idle.png",
+          "name": "Medieval Button Brown_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d9240cf31b0e332a890cdbe7658eef81c587545df6673b86565c9141a23bc195_Medieval Button Brown_Pressed.png",
+          "name": "Medieval Button Brown_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CaveatBrush-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CaveatBrush-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+          "name": "CaveatBrush-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Shadow_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/4a64488d212c7a69721b3ac48319e64bc830f5663535fdafb18e2fc907e8d10a_Purple Button With Shadow_Hovered.png",
+          "name": "Purple Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Shadow_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e44a40d67427b4e53751fc82b5ad4d87b2daf311558dcf0151cd1b173b7e5dcf_Purple Button With Shadow_Idle.png",
+          "name": "Purple Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Shadow_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/04a69986487fb427759132f3807a28db0f3b845623d5ba34d063f46a9ee22f63_Purple Button With Shadow_Pressed.png",
+          "name": "Purple Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orange Button With Stone Frame_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange Button With Stone Frame_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d9f0792f91e3d7948395be2a60773d80eebd8bcc8f506668db7fdafc3a1a8b12_Orange Button With Stone Frame_Hovered.png",
+          "name": "Orange Button With Stone Frame_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orange Button With Stone Frame_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange Button With Stone Frame_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/623f773b7fcb6086b852622191c3fe6868f18dea34fb4f4150f4955cd17d9d49_Orange Button With Stone Frame_Idle.png",
+          "name": "Orange Button With Stone Frame_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orange Button With Stone Frame_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange Button With Stone Frame_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/988126f14c4319aab11ff5fbcfb970806eaa418a4543a3ccfc1ef9ec183f1d60_Orange Button With Stone Frame_Pressed.png",
+          "name": "Orange Button With Stone Frame_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/On Screen Controls Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "On Screen Controls Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/16e804dda11f82902d6b7469420d7b3b81d68ef00af71783070dd284114e8cdc_On Screen Controls Button_Hovered.png",
+          "name": "On Screen Controls Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/On Screen Controls Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "On Screen Controls Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/174644b98156cc55e10a4eb991aebb06e0a2c9f98915abb1422cababc3124de3_On Screen Controls Button_Idle.png",
+          "name": "On Screen Controls Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/On Screen Controls Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "On Screen Controls Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5a44f1cb97ef7da59c97179346b71d3f5b913af0208795784707c062fc20749f_On Screen Controls Button_Pressed.png",
+          "name": "On Screen Controls Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Stone Frame_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Stone Frame_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b2c6ef85d2088a94a58d7c457ed225561a073aa3c9e6401a612bcdd98795ae91_Purple Button With Stone Frame_Hovered.png",
+          "name": "Purple Button With Stone Frame_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Stone Frame_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Stone Frame_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3bd79fc534fc1d2859343599ea35a2c3f81700ffebdf7b8b798be440e59ad816_Purple Button With Stone Frame_Idle.png",
+          "name": "Purple Button With Stone Frame_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Purple Button With Stone Frame_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Purple Button With Stone Frame_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/631710ee61e5e5422c9986ae91169e2e76e3f874a1aca8d2b02d6b5675348256_Purple Button With Stone Frame_Pressed.png",
+          "name": "Purple Button With Stone Frame_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Gold Frame_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Gold Frame_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/efae8667310d19ec644147356eb91a417f9558f93f4ea3648611fe5a79fb0f3a_Red Button With Gold Frame_Hovered.png",
+          "name": "Red Button With Gold Frame_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Gold Frame_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Gold Frame_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/4b95308670b04c19600672083409d5d39dde7096139d36a89e18111cc547835c_Red Button With Gold Frame_Idle.png",
+          "name": "Red Button With Gold Frame_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Gold Frame_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Gold Frame_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/8914d295c54909f59b10d76edbd01797409a0f09119c3acd2576e3ce3cf378b9_Red Button With Gold Frame_Pressed.png",
+          "name": "Red Button With Gold Frame_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Metal Frame_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Metal Frame_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b22a9a1823c086427abcdbec14ef49d5a49e6999d8970476bdb7c022b62d8dcc_Red Button With Metal Frame_Hovered.png",
+          "name": "Red Button With Metal Frame_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Metal Frame_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Metal Frame_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c89bb37a1b97b101b601ba39bce50d74964264704d0644735a08c0986e122294_Red Button With Metal Frame_Idle.png",
+          "name": "Red Button With Metal Frame_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Metal Frame_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Metal Frame_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ff00ce0a7031e00560a3844ca90fbf73a45c42c8f6659e018110fc8c45c9982e_Red Button With Metal Frame_Pressed.png",
+          "name": "Red Button With Metal Frame_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Charm-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Charm-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/668523d3d2bb73faa358e1ebafa55f43d2760f8abbe99aa15476121c1bcc7eb6_Charm-Regular.ttf",
+          "name": "Charm-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Stone Frame_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Stone Frame_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d9f2505db653cb1b2521765fbc9c9f95794067d8ae038e3e6a8c14b8075b7181_Red Button With Stone Frame_Hovered.png",
+          "name": "Red Button With Stone Frame_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Stone Frame_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Stone Frame_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/0bc6460559978afa6726124ef313f6faa64903b5d2f19fd3f3474af804bcfe9f_Red Button With Stone Frame_Idle.png",
+          "name": "Red Button With Stone Frame_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Stone Frame_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Stone Frame_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5a9c6130f5e1b226dde18e673aaac546a54ee35fc68aedd4aab998b93ed9fa1d_Red Button With Stone Frame_Pressed.png",
+          "name": "Red Button With Stone Frame_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Yellow Border_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Yellow Border_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/09c5d56e61a6a8b031a30ff89ae4229243317908385b5701a46e458c2fd6906c_Transparent Button With White Yellow Border_Hovered.png",
+          "name": "Transparent Button With White Yellow Border_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Yellow Border_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Yellow Border_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7311d88d62c25c9a5e7ed4f2031f4d58fabe564e093b203e62e467a1a995ed32_Transparent Button With White Yellow Border_Idle.png",
+          "name": "Transparent Button With White Yellow Border_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Yellow Border_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Yellow Border_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e00d068010472f362dc46547bd727f20d85163a88cd2414d7f4fb9df63db2917_Transparent Button With White Yellow Border_Pressed.png",
+          "name": "Transparent Button With White Yellow Border_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/White Decorated Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Decorated Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/aac119ea43bd2b8fdb1f04a469420d61103b5199ddb715aa4904d093816d65dc_White Decorated Button_Hovered.png",
+          "name": "White Decorated Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/White Decorated Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Decorated Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d2c7cafab0f5538ed6e2d9352ea2d138330c26408736202425d978e72fbb3904_White Decorated Button_Idle.png",
+          "name": "White Decorated Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/White Decorated Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Decorated Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3d78d9f253b7ba4f1af9cd54ebcc27ce44d761cfdb2854ea6179fb449e290d64_White Decorated Button_Pressed.png",
+          "name": "White Decorated Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/White Square Decorated Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Square Decorated Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/77717e5c1f84f3ba9a3dd6e314bc0bdc3233351c657e8f6df40b7f50e8911b2b_White Square Decorated Button_Hovered.png",
+          "name": "White Square Decorated Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/White Square Decorated Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Square Decorated Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c4444ea8d2cd97df3af29acc29f4928549ab31e18156a304a78f6d838ea9f152_White Square Decorated Button_Idle.png",
+          "name": "White Square Decorated Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/White Square Decorated Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Square Decorated Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c3bdc36afb89e6dea691d9ca8c0a74f06fb3f37f910ae730f0654d5df7d10472_White Square Decorated Button_Pressed.png",
+          "name": "White Square Decorated Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c1e14acb64b9963341656c997853154dc4c86cd1c46fb12bfbe012d99712ef61_Yellow Button_Hovered.png",
+          "name": "Yellow Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/1cacfd123a1eb708837337c27982f6871f5127c5890dbf0775e0f411958fcbf1_Yellow Button_Idle.png",
+          "name": "Yellow Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Yellow Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yellow Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/928c3ea4db1da835c9f8cc5b7089a47228350209d2ff489e1484c31e5ce41b3d_Yellow Button_Pressed.png",
+          "name": "Yellow Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/71ee2c8d8b72808c7f084252cd36c80c44bc07655a3729e5fe7459c634007e8a_Red Button With Shadow_Hovered.png",
+          "name": "Red Button With Shadow_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6c6bf020fb86d99a9ecc993f8b90064d73d757bc2408050cf353c84bc36f6be2_Red Button With Shadow_Idle.png",
+          "name": "Red Button With Shadow_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button With Shadow_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button With Shadow_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b9ce526450d48adedb6875043465ae168fff1f6b01dd1ff7f43b7e7c1568cc21_Red Button With Shadow_Pressed.png",
+          "name": "Red Button With Shadow_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Blue Border_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Blue Border_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6d8e529f898d0d1cfc8e94ba10ae0a01e0a31b08bc0d11ec35074a34f3485f55_Transparent Button With White Blue Border_Hovered.png",
+          "name": "Transparent Button With White Blue Border_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Blue Border_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Blue Border_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/7311d88d62c25c9a5e7ed4f2031f4d58fabe564e093b203e62e467a1a995ed32_Transparent Button With White Blue Border_Idle.png",
+          "name": "Transparent Button With White Blue Border_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent Button With White Blue Border_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent Button With White Blue Border_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c18e2e342a2cce350f068208df2b7f5549dc600d2201609b1d3d76c497fffd30_Transparent Button With White Blue Border_Pressed.png",
+          "name": "Transparent Button With White Blue Border_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/Kenney Mini Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Kenney Mini Square.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/5e2e3fcc57885d5e510934e621be5f8dd7a5b6425cf46ef38073e3d2c3b04048_Kenney Mini Square.ttf",
+          "name": "Kenney Mini Square.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button_Hovered.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f1e231bf9ea89b842ac63e17cc41cab0dd3a5d88916ca3454d89872e85c239d7_Red Button_Hovered.png",
+          "name": "Red Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/673facf2cabe26813a9ac066e93c005e264c6222557999e56582a0fe73216f3f_Red Button_Idle.png",
+          "name": "Red Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Button_Pressed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/e3269fc6a93f1d6083564069b4d14c7e31df6bfc96d27f82c791d2210242315a_Red Button_Pressed.png",
+          "name": "Red Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Meteor Red_Large.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Meteor Red_Large.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Background/1dacb95edb92edcf18b60c98be80fff4d4cfccdb19dd06f4fec1517c4ad75e1e_Meteor Red_Large.png",
+          "name": "Meteor Red_Large.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Meteor Red_Small.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Meteor Red_Small.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Background/fe793048cf74a87a67905d5a050f23ca6db1bbbffac01396a2677cd099db313e_Meteor Red_Small.png",
+          "name": "Meteor Red_Small.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Background 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Background 4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Background/24dbdee8d8886c8b2ae15da4fe60e8fda0cd78d3742a533b1c10f12e069c7bb6_Background 4.png",
+          "name": "Background 4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Emote Left.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Emotes by Tomcat94/93c5a2aad84ab24de3f7a96ebada8b4e7e75c939b9e3c7b8290a045763cf67fc_Blank Emote Left.png",
+          "name": "Blank Emote Left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Emote Left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Blank Emote Left",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Background 3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Background 3.png\",\"extension\":\".png\"}",
+        "name": "Background 3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Space Shooter by Pixel boy/Background/e55d3dd9fc042805e7907e3941b1bc4f26b7fcbbb7564c27621c40c7ac68e447_Background 3.png",
+          "name": "Background 3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Green Puzzle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Green Puzzle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Items/35c9a532b365c2c37bf2c4dc67288efcde2e4d09920a6884ec1d8bebfc7edf46_Green Puzzle.png",
+          "name": "Green Puzzle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TigerSplit/00.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TigerSplit\\00.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TigerSplit/01.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TigerSplit\\01.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TigerSplit/02.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TigerSplit\\02.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TigerSplit/03.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TigerSplit\\03.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TigerSplit/10.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TigerSplit\\10.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TigerSplit/11.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TigerSplit\\11.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TigerSplit/12.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TigerSplit\\12.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TigerSplit/13.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TigerSplit\\13.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TigerSplit/20.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TigerSplit\\20.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TigerSplit/21.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TigerSplit\\21.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TigerSplit/22.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TigerSplit\\22.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TigerSplit/23.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TigerSplit\\23.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TigerSplit/30.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TigerSplit\\30.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TigerSplit/31.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TigerSplit\\31.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TigerSplit/32.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TigerSplit\\32.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TigerSplit/33.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TigerSplit\\33.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Ass2 game.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ass2 game.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": true,
+        "file": "assets/00.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\00.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/01.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\01.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/02.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\02.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/03.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\03.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/10.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\10.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/11.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\11.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/12.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\12.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/13.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\13.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/20.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\20.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/21.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\21.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/22.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\22.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/23.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\23.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/30.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\30.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/31.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\31.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/32.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\32.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/33.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\33.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "backgroundMDW.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "backgroundMDW.jpeg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/Tiger.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\Tiger.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/TigerSplit/00.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\TigerSplit\\00.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/TigerSplit/01.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\TigerSplit\\01.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/TigerSplit/02.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\TigerSplit\\02.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/TigerSplit/03.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\TigerSplit\\03.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/TigerSplit/10.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\TigerSplit\\10.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/TigerSplit/11.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\TigerSplit\\11.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/TigerSplit/12.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\TigerSplit\\12.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/TigerSplit/13.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\TigerSplit\\13.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/TigerSplit/20.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\TigerSplit\\20.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/TigerSplit/21.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\TigerSplit\\21.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/TigerSplit/22.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\TigerSplit\\22.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/TigerSplit/23.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\TigerSplit\\23.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/TigerSplit/30.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\TigerSplit\\30.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/TigerSplit/31.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\TigerSplit\\31.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/TigerSplit/32.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\TigerSplit\\32.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/TigerSplit/33.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\TigerSplit\\33.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "STORYBOARD/1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "STORYBOARD\\1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "STORYBOARD/2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "STORYBOARD\\2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Box_No Shadow.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Red Box_No Shadow.png\",\"extension\":\".png\"}",
+        "name": "Red Box_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/b9110c8eca8e8586b63078fdb689d5235c053f3805089af98fb1aa844774df0e_Red Box_No Shadow.png",
+          "name": "Red Box_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Red Box_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red Box_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/23bf29e1210d5a7ced8d1bc1b0d487f437496ef525a0fcd55a74e6860aebb0ec_Red Box_Shadow.png",
+          "name": "Red Box_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Bath Floor Tiles.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiled_Bath Floor Tiles.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "tiled_Bath Floor Tiles.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Mini Interior Bed And Bath/Floor Tile/7860e0c7de8370e6e84a25ba77ad2917d521af674cecd235d3fcbbd4dc9aca15_tiled_Bath Floor Tiles.png",
+          "name": "tiled_Bath Floor Tiles.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close Button_Blank.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Close Button_Blank.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Wesxdz Game Assets/skullcup/UI/a9cbb606da3272d77cde5116f74f272864f253dfcc2ce2bfb20ccf9e4da43557_Close Button_Blank.png",
+          "name": "Close Button_Blank.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Close Button_Close.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Close Button_Close.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Wesxdz Game Assets/skullcup/UI/8ed41e0b0def3bf8ce4e11b67483abcb7d9d761f62d0e50f59f7c1dafac71628_Close Button_Close.png",
+          "name": "Close Button_Close.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Clean.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Clean.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/fdbaad501362790bd57187ff43d62c521f0a58b98697dcb2d058ed359b1dffa8_Floor_Clean.png",
+          "name": "Floor_Clean.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Cracks1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Cracks1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/91efa9c4a84b00d0abdd615a0b632afaab3a0ad8749b9c73b767e1d6b68a7124_Floor_Cracks1.png",
+          "name": "Floor_Cracks1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Cracks2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Cracks2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/e3aa42d4d3c1c3beb07bef71bab4cadcb145988d872d67e477209b5494ac30a0_Floor_Cracks2.png",
+          "name": "Floor_Cracks2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Cracks3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Cracks3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/ca5a5046a9fa10350405d669e9e38d7ea3b9586ce33e9d679de70b728a5bd30c_Floor_Cracks3.png",
+          "name": "Floor_Cracks3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Cracks4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Cracks4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/62480013f81b59b6bba79ac24881e2677898b2cffbda31def8b48d40d0d6c9a2_Floor_Cracks4.png",
+          "name": "Floor_Cracks4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Cracks5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Cracks5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/40f82a9aaec9518c10c9770ac49d9551e17ebfa56b718a35a0206754dc7909e6_Floor_Cracks5.png",
+          "name": "Floor_Cracks5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Cracks6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Cracks6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/42d983f03fb6693916b23ece84d0eb407956272162966d70a64fc65815894992_Floor_Cracks6.png",
+          "name": "Floor_Cracks6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Cracks7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor_Cracks7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/073afbf6198c37674a3c241afb8823283760582a1649388db715403874f4df15_Floor_Cracks7.png",
+          "name": "Floor_Cracks7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Ladder.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Floor_Ladder.png\",\"extension\":\".png\"}",
+        "name": "Floor_Ladder.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/5adc23ade4d6419446a8defacfe6f2977841787593af5886ffd060f576ef21ec_Floor_Ladder.png",
+          "name": "Floor_Ladder.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Open door top.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Open door top.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/e4aa6d39011105e74883d0502b45677ce48dbeee0fea0ab2bc846deed9de1d50_Open door top.png",
+          "name": "Open door top.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Long rectangle metal_Broken.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Long rectangle metal_Broken.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Metal/1bcd871788c8e8e9aaf0374755938c7cec3532d560ac38ad51a2b58b46bfea51_Long rectangle metal_Broken.png",
+          "name": "Long rectangle metal_Broken.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Long rectangle metal_Damaged.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Long rectangle metal_Damaged.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Metal/0f1ae576dc1a6725b4b193235ee1b038c51cc98d7a5caea537a5864d65f5f8c0_Long rectangle metal_Damaged.png",
+          "name": "Long rectangle metal_Damaged.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Long rectangle metal_Perfect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Long rectangle metal_Perfect.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Metal/399fc7b53b0d88dbd8a7c938b19c7e548c473ed10913fbc71fd2e0b3ee490692_Long rectangle metal_Perfect.png",
+          "name": "Long rectangle metal_Perfect.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Graveyard Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Graveyard Background.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/pzUH Pack/Worlds/Graveyard/2ffb486d810edd024b73a1a855f30254f5dc60b658af6ad914b1355f846b2637_Graveyard Background.png",
+          "name": "Graveyard Background.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/backatte.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\backatte.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Start button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Start button.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Shaded Dark/1afdb0a232ddbe0ae1428c6b1c109e050fc5ff15f733fedbca005760a313b61c_Start button.png",
+          "name": "Start button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/Leaves/imageonline/00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\Leaves\\imageonline\\00.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/Leaves/imageonline/01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\Leaves\\imageonline\\01.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/Leaves/imageonline/02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\Leaves\\imageonline\\02.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/Leaves/imageonline/10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\Leaves\\imageonline\\10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/Leaves/imageonline/11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\Leaves\\imageonline\\11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/Leaves/imageonline/12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\Leaves\\imageonline\\12.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/Leaves/imageonline/20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\Leaves\\imageonline\\20.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/Leaves/imageonline/21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\Leaves\\imageonline\\21.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/Leaves/imageonline/22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\Leaves\\imageonline\\22.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor Ladder.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Floor Ladder.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/5adc23ade4d6419446a8defacfe6f2977841787593af5886ffd060f576ef21ec_Floor Ladder.png",
+          "name": "Floor Ladder.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Project/Sunshine-leaves-beech-tree.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Project\\Sunshine-leaves-beech-tree.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front36.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/card_back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\card_back.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front35.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front34.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front33.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front32.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front31.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front30.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front29.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/position_placeholder-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\position_placeholder-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\button.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/board.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\board.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\background.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/screen_fade-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\screen_fade-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/screen_fade2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\screen_fade2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Rise.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\Rise.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/pop.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\pop.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/cuckoo.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\cuckoo.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/cockatrice_playcard.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\cockatrice_playcard.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/LuckiestGuy.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\LuckiestGuy.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Star.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front28.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front27.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front26.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front25.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front24.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front23.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front22.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front21.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front42.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front43.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front44.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front45.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/board3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\board3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/images_background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\images_background.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/images_board.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\images_board.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/screen_fade5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\screen_fade5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/star3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\star3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front11.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/images_button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\images_button.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/screen_fade3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\screen_fade3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front20.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front18.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front16.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front15.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front14.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front38.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front38.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front40.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front40.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/front41.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\front41.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/images_board2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\images_board2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/images_button2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\images_button2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/image/screen_fade4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\image\\screen_fade4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/spot differences-min.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\spot differences-min.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/spot the difference-min.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\spot the difference-min.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Timer_Drop-shadowed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Timer_Drop-shadowed.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Timer_Outlined.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Timer_Outlined.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Digit_0_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Digit_0_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Digit_1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Digit_1_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Digit_2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Digit_2_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Digit_3_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Digit_3_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Digit_4_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Digit_4_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Digit_5_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Digit_5_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Digit_6_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Digit_6_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Digit_7_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Digit_7_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Digit_8_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Digit_8_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Digit_9_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Digit_9_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Remote Back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Remote Back.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/89374e2c-d3af-4504-bc80-4e41f6412488.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\89374e2c-d3af-4504-bc80-4e41f6412488.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Back_Alt.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Back_Alt.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Back.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Close round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Close round button.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Pause button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Pause button.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Question Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Question Key.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/download.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\download.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Message.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Message.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Spot_the_difference.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Spot_the_difference.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/download2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\download2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/89374e2c-d3af-4504-bc80-4e41f64124882.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\89374e2c-d3af-4504-bc80-4e41f64124882.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Blank Emote_Style 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Blank Emote_Style 1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Blank Emote_Style 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Blank Emote_Style 2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Blank Emote_Style 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Blank Emote_Style 3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Blank Emote_Style 4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Blank Emote_Style 4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Blank Emote_Style 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Blank Emote_Style 5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Blank Emote_Style 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Blank Emote_Style 6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Blank Emote_Style 7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Blank Emote_Style 7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Next.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Next.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_focus/Redo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_focus\\Redo.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets_focus/Silkscreen-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets_focus\\Silkscreen-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets_focus/Caveat-VariableFont_wght.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets_focus\\Caveat-VariableFont_wght.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets_daus/VT323-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets_daus\\VT323-Regular.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/Start button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\Start button.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/image/WhatsApp Image 2023-06-06 at 11.30.32 AM.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\image\\WhatsApp Image 2023-06-06 at 11.30.32 AM.jpeg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/image/download.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\image\\download.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/Generic Character 4_Left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\Generic Character 4_Left_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/Generic Character 4_Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\Generic Character 4_Down_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/Generic Character 4_Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\Generic Character 4_Down_2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/Generic Character 4_Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\Generic Character 4_Down_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/Generic Character 4_Left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\Generic Character 4_Left_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/Generic Character 4_Left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\Generic Character 4_Left_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/Generic Character 4_Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\Generic Character 4_Right_1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/Generic Character 4_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\Generic Character 4_Right_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/Generic Character 4_Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\Generic Character 4_Right_3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/Generic Character 4_Up_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\Generic Character 4_Up_1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/Generic Character 4_Up_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\Generic Character 4_Up_2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/Generic Character 4_Up_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\Generic Character 4_Up_3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/Health Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\Health Bar.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/Start button2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\Start button2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dot Bar Green Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Green Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/e0754c6008a7f3ec35ce32d663263982cd7a67f91974977d1c1247b90891b1b9_Dot Bar Green Border.png",
+          "name": "Dot Bar Green Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dot Bar Green Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Dot Bar Green Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Resource bars/pixel art/11956f33bb9a6ca4997feced357ff80d8b2597367951d4ab34cd67d5a2d8b054_Dot Bar Green Fill Bar.png",
+          "name": "Dot Bar Green Fill Bar.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/image/WhatsApp Image 2023-06-29 at 8.06.12 PM.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\image\\WhatsApp Image 2023-06-29 at 8.06.12 PM.jpeg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/image/berapa-binatang-hayo.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\image\\berapa-binatang-hayo.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/image/colored-flat-shape-emoticon-depiction-of-moods-from-sad-to-happy-to-measure-the-scale-of-service-com.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\image\\colored-flat-shape-emoticon-depiction-of-moods-from-sad-to-happy-to-measure-the-scale-of-service-com.jpg",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets_daus/image/qTBoEbdMc.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets_daus\\image\\qTBoEbdMc.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets_daus/BerkshireSwash-Regular2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets_daus\\BerkshireSwash-Regular2.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets_daus/Kenney High Square.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets_daus\\Kenney High Square.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "assets_daus/CaesarDressing-Regular2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets_daus\\CaesarDressing-Regular2.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Message2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Message.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Lucid Icons Pack/Shadow/bd9a208acc0a41c95dd70b911eda31aaca74d36e84de4332ed7f896198f38461_Message.png",
+          "name": "Message.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Message3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Message",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Inventory_9Slices.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Inventory_9Slices.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Retro Pixelart UI/Pixel art/UI/9d76e6e4af68637d689d7b0904b46fdd3b3eed4363d7140e757b8b14cfdcd7cd_Inventory_9Slices.png",
+          "name": "Inventory_9Slices.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chip Yellow_A Flat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chip Yellow_A Flat.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/Chip/9c34b784544241bca2740e5c5ba7957116ac2e5ff84b05008a652c47911e52dc_Chip Yellow_A Flat.png",
+          "name": "Chip Yellow_A Flat.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chip Yellow_A Outline Flat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chip Yellow_A Outline Flat.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/Chip/1cef827c783e403d08cf67b67a50b516c55c9e9268f99dc5514572329c1eebb3_Chip Yellow_A Outline Flat.png",
+          "name": "Chip Yellow_A Outline Flat.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chip Yellow_B Flat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chip Yellow_B Flat.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/Chip/e8709775522feb1b0ca7379ddde00c7f4479dcd05f8833af1bc3cb07a3515cd1_Chip Yellow_B Flat.png",
+          "name": "Chip Yellow_B Flat.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Chip Yellow_B Outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Chip Yellow_B Outline.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Screaming Brain Studios/Chip/ebbff08c4483049bc52accbe52e8b6744d0bf42872791706943429b2c68e34d8_Chip Yellow_B Outline.png",
+          "name": "Chip Yellow_B Outline.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "frameui.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frameui.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "frameui-removebg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frameui-removebg.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "file": "assets/BerkshireSwash-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/68a5dc0db819d176c1744185164579a9b7c4231b6386d9e1e0966e520f850fcc_BerkshireSwash-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/star2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\star2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Start button2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Start button.png2",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Flat Light/0f3e4ba2cca8da6294335470d802b0aa66fc1c3616b4002ae453387e2c3c74ba_Start button.png",
+          "name": "Start button.png"
+        }
+      },
+      {
+        "file": "win.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "win.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "gamesound.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gamesound.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "Loading.mp4",
+        "kind": "video",
+        "metadata": "",
+        "name": "Loading.mp4",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "thumb.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "thumb.jpg",
+        "smoothed": false,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/loading"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/homepage"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/result"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/blackwhite"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/question"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/inhaleexhale"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/good-job"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/good-job-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/good-job-3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/try-again"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/try-again2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/challengerelax"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene-1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/how-to-play"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/main-page"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/hard"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/module-attention"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/easy"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritecontinuousbar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/stayonscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/bounce"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/buttonstates"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
